@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#clockcontainer {
+  position: relative;
+  margin: auto;
+  width: 40vw;
+  height: 40vw;
+  background: url("clock.jpeg") no-repeat;
+  background-size: 100%;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  border-radius: 10px;
+  opacity: 0.8;
+  background: black;
+  transform-origin: bottom;
+}
+#hour {
+  width: 2%;
+  height: 20%;
+  top: 28.5%;
+  left: 48.35%;
+}
+#minute {
+  width: 1.5%;
+  height: 25%;
+  top: 23.5%;
+  left: 48.53%;
+}
+#second {
+  width: 1%;
+  height: 30%;
+  top: 18.5%;
+  left: 48.8%;
+}
+#digitalClockContainer {
+  display: flex;
+  width: 34vw;
+  height: 5vw;
+  margin: auto;
+}
+#digitalHour,
+#digitalMinute,
+#digitalSecond {
+  width: 8vw;
+  height: 5vw;
+  font-size: 5vw;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+#colon {
+  font-size: 5vw;
+}
+#meridian {
+  width: 8vw;
+  height: 5vw;
+  font-size: 5vw;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
